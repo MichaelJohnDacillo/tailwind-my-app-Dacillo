@@ -974,16 +974,16 @@ form input:focus, form textarea:focus{
   margin-top: 3rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .mt-4{
   margin-top: 1rem;
 }
 
-.mt-3{
-  margin-top: 0.75rem;
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .flex{
@@ -1008,21 +1008,21 @@ form input:focus, form textarea:focus{
   height: 0px;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
 }
 
-.h-6{
-  height: 1.5rem;
+.w-6{
+  width: 1.5rem;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-6{
-  width: 1.5rem;
 }
 
 .max-w-3xl{
@@ -1116,13 +1116,12 @@ form input:focus, form textarea:focus{
   border-bottom-width: 1px;
 }
 
-.border-b-white{
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
 .border-b-white\/20{
   border-bottom-color: rgb(255 255 255 / 0.2);
+}
+
+.bg-black\/90{
+  background-color: rgb(0 0 0 / 0.9);
 }
 
 .bg-gray-50{
@@ -1133,15 +1132,6 @@ form input:focus, form textarea:focus{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black\/90{
-  background-color: rgb(0 0 0 / 0.9);
 }
 
 .object-cover{
@@ -1172,12 +1162,12 @@ form input:focus, form textarea:focus{
   padding-bottom: 3rem;
 }
 
-.pt-36{
-  padding-top: 9rem;
-}
-
 .pt-12{
   padding-top: 3rem;
+}
+
+.pt-36{
+  padding-top: 9rem;
 }
 
 .text-left{
@@ -1228,12 +1218,12 @@ form input:focus, form textarea:focus{
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-white\/70{
-  color: rgb(255 255 255 / 0.7);
-}
-
 .text-white\/60{
   color: rgb(255 255 255 / 0.6);
+}
+
+.text-white\/70{
+  color: rgb(255 255 255 / 0.7);
 }
 
 .opacity-0{
@@ -1286,20 +1276,16 @@ form input:focus, form textarea:focus{
     margin-top: 0px;
   }
 
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:h-auto{
     height: auto;
   }
 
-  .md\:w-auto{
-    width: auto;
-  }
-
   .md\:w-1\/2{
     width: 50%;
+  }
+
+  .md\:w-auto{
+    width: auto;
   }
 
   .md\:grid-cols-2{
